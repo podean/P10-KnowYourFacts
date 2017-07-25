@@ -12,7 +12,9 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Queen Elizabeth I regarded herself as a paragon of cleanliness. She declared that she bathed once every three months, whether she needed it or not" />
+        android:text="Fourth \nQueen Elizabeth I regarded herself as a paragon of cleanliness. She declared that she bathed once every three months, whether she needed it or not"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="wrap_content"

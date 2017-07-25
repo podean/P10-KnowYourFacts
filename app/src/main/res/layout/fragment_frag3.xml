@@ -12,7 +12,9 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="What is called a 'French kiss' in the English speaking world is known as an 'English kiss' in France." />
+        android:text="Third     \nWhat is called a 'French kiss' in the English speaking world is known as an 'English kiss' in France."
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="wrap_content"
