@@ -10,13 +10,20 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:id="@+id/textView"
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/myZoomageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text='First:    \nThe word "queue" is the only word in the English language that is still pronounced the same way when the last four letters are removed.'
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_height="500dp"
+        android:src="@drawable/facts7740"
+        android:zoomage_restrictBounds="false"
+        android:zoomage_animateOnReset="true"
+        android:zoomage_autoResetMode="UNDER"
+        android:zoomage_autoCenter="true"
+        android:zoomage_zoomable="true"
+        android:zoomage_translatable="true"
+        android:zoomage_minScale="0.6"
+        android:zoomage_maxScale="8"  />
+
 
     <Button
         android:layout_width="wrap_content"

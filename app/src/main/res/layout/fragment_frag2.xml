@@ -8,13 +8,19 @@
     tools:context="com.example.potran.p10_knowyourfacts.Frag2">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:id="@+id/textView"
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/myZoomageView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Second	\nHoney is the only food that does not spoil. Honey found in the tombs of Egyptian pharaohs has been tasted by archaeologists and found edible."
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_height="500dp"
+        android:src="@drawable/fact7742"
+        android:zoomage_restrictBounds="false"
+        android:zoomage_animateOnReset="true"
+        android:zoomage_autoResetMode="UNDER"
+        android:zoomage_autoCenter="true"
+        android:zoomage_zoomable="true"
+        android:zoomage_translatable="true"
+        android:zoomage_minScale="0.6"
+        android:zoomage_maxScale="8"  />
 
     <Button
         android:layout_width="wrap_content"
